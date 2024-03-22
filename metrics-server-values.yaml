@@ -1,0 +1,4 @@
+# Installation
+#
+# helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
+# helm upgrade --install --namespace kube-system --values ~/tmp/metrics-server-values.yaml metrics-server metrics-server/metrics-server 
